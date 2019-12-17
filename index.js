@@ -5,6 +5,7 @@ const logger = require('./utils/logger');
 const reportVulnerabilities = require('./lib/reportVulnerabilities');
 
 const main = async () => {
+  logger.log(process.env);
   const command = core.getInput('command');
 
   try {
