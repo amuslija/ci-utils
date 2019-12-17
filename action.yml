@@ -6,12 +6,11 @@ inputs:
     required: true
   vulnerabilities-file-path:
     description: Path to the Anchore reported vulnerabilities
-  github-token:
-    description: Repo specific GitHub authentication token
-outputs:
   vulnerabilities-output-path: 
     description: File containing new vulnerabilities
     default: vulnerabilities_to_report.json
+  github-token:
+    description: Repo specific GitHub authentication token
 runs:
   using: docker
   image: Dockerfile
