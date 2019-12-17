@@ -1,0 +1,9 @@
+*
+
+!.dockerignore
+!.eslintrc.js
+!.gitignore
+!action.yml
+!Dockerfile
+!index.js
+!package*

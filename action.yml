@@ -1,0 +1,14 @@
+name: CI Actions
+description: Greet someone and record the time
+inputs:
+  command:
+    description: What utility command to run
+    required: true
+  github-token:
+    description: Repo specific GitHub authentication token
+outputs:
+  vulnerabilities-output-path: 
+    description: File containing new vulnerabilities
+runs:
+  using: docker
+  image: Dockerfile
