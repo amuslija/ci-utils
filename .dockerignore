@@ -7,3 +7,7 @@
 !Dockerfile
 !index.js
 !package*
+!utils
+!utils/*
+!lib
+!lib/*
