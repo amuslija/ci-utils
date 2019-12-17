@@ -7,4 +7,4 @@ RUN \
 
 COPY . .
 
-ENTRYPOINT [ "npm", "start" ]
+ENTRYPOINT ["node", "/index.js"]
