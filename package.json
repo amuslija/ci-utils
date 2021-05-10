@@ -14,7 +14,7 @@
     "@actions/github": "^2.0.0",
     "@octokit/rest": "^16.35.2",
     "dotenv": "^8.2.0",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "eslint": "^6.7.2",
